@@ -1,5 +1,5 @@
 resource "fortios_firewall_policy" "accept-lan-to-native" {
-  name       = "Allow LAN to Native"
+  name       = "Accept / LAN to Native"
   action     = "accept"
   policyid   = 202
   schedule   = "always"

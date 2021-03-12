@@ -1,5 +1,5 @@
 resource "fortios_firewall_policy" "accept-lan-to-ict-college" {
-  name       = "Allow LAN to ICT-College"
+  name       = "Accept / LAN to ICT-College"
   action     = "accept"
   policyid   = 203
   schedule   = "always"

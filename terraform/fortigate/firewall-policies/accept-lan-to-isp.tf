@@ -1,5 +1,5 @@
 resource "fortios_firewall_policy" "accept-lan-to-isp" {
-  name       = "Allow LAN to ISP"
+  name       = "Accept / LAN to ISP"
   action     = "accept"
   policyid   = 201
   schedule   = "always"

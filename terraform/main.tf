@@ -1,0 +1,3 @@
+module "fortigate" {
+  source = "./fortigate"
+}

@@ -6,7 +6,7 @@ resource "fortios_firewall_multicastpolicy" "allow-lan-to-iot-cast" {
   protocol   = 0
   snat       = "enable"
   srcintf    = "Z-LAN"
-  status     = "enable"
+  status     = "disable"
 
   dstaddr {
     name = "M-Google-Cast"

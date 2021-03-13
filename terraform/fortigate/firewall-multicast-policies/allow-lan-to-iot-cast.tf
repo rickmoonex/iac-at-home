@@ -9,10 +9,10 @@ resource "fortios_firewall_multicastpolicy" "allow-lan-to-iot-cast" {
   status     = "enable"
 
   dstaddr {
-    name = "all"
+    name = "M-Google-Cast"
   }
 
   srcaddr {
-    name = "M-Google-Cast"
+    name = "all"
   }
 }
